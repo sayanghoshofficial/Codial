@@ -3,16 +3,22 @@ const app = express();
 const port = 8000;
 const expresslayouts = require('express-ejs-layouts');
 
-
+app.use(express.static('./assets'));
 
 app.use(expresslayouts);
+//extracts scripts and link tag from sub pages of layouts
+app.set('layout extractStyles',true);
+app.set('layout extractScripts',true);
 
-//use express router
-app.use('/',require('./routes'));
 
-//set up the view engine
-app.set('view engine','ejs');
-app.set('views','./views');
+
+// set up the view engine
+app.set('view engine', 'ejs');
+app.set('views', './views');
+
+// use express router
+app.use('/', require('./routes'));
+
 
 app.listen(port, function(err){
     if(err){

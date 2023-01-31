@@ -1,8 +1,10 @@
-html>
+<html>
     <head>
         <title>
             <%= title %>
         </title>
+        <link rel="stylesheet" type="text/css" href="/css/layout.css">
+        <%- style %>
     </head>
     
     <body>
@@ -11,6 +13,8 @@ html>
         <%- body %>
 
         <%- include('_footer'); %>
+
+        <%- script %>
     </body>
    
 </html>
