@@ -13,8 +13,10 @@
   "author": "Sayan Ghosh",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "express-ejs-layouts": "^2.5.1"
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.9.0"
   }
 }
