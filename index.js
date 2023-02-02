@@ -22,7 +22,7 @@ app.set('layout extractScripts',true);
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
-// use express router
+// use express router      
 app.use('/', require('./routes'));
 
 
