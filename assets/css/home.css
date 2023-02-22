@@ -1,0 +1,13 @@
+body {
+  background-color: #7e7ef0;
+  color: white; }
+  body #home-cointainer {
+    display: flex; }
+    body #home-cointainer #feed-posts {
+      width: 70%;
+      height: 100%;
+      padding: 10px; }
+    body #home-cointainer #user_friends {
+      width: 30%;
+      padding: 10px;
+      border-left: 1px solid lightgray; }

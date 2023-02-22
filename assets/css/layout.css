@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  text-align: center;
+  overflow-x: hidden; }
+  body::-webkit-scrollbar {
+    display: none; }
+  body #layout-main {
+    height: 87%;
+    overflow: auto; }
+    body #layout-main::-webkit-scrollbar {
+      display: none; }
+
+ul {
+  list-style: none; }

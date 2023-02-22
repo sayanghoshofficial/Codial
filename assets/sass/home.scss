@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(126, 126, 240);
+    color: white;
+    // height: auto;
+    // position: relative;
+    #home-cointainer{
+        display: flex;
+        #feed-posts{
+            width: 70%;
+            height: 100%;
+            padding: 10px;
+        }
+        #user_friends{
+            width: 30%;
+            // height: 100%;
+            padding: 10px;
+            border-left: 1px solid lightgray;
+            // height: 100%;
+        }
+    }
+    
+}
